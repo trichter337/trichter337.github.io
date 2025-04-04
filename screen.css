@@ -91,7 +91,7 @@ a:hover {
   margin: auto;
   padding: 15px;
 }
-.container #other{
-    position: absolute;
-    right: 0;
+#ordered {
+  background: #FAC88C;
+    color: #642112;  
 }
