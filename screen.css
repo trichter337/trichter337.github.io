@@ -39,17 +39,10 @@ a:hover {
 }
 #table1 {
     text-align: center;
-}
-#img1 img{
-    height: 400px;
-    margin: auto;
+    margin-left: 550px;
 }
 #img2 img {
-    height: 400px;
-}
-#table2{
-    margin: auto;
-    top: 200px;
+    height: 630px;
 }
 #table2, td, th{
     border: 1px #642112 solid;
@@ -57,11 +50,18 @@ a:hover {
     width: 400px;
     font-family: serif;
     color: #642112;
-    
+    margin-top: -665px;
+    margin-left: 1075px;
 }
 #table3 {
-    margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
     float: left;
+    text-align: center;
+}
+#table4 {
+    margin-left: 35px;
+    margin-right: 5px;
 }
 #img3 img {
     height: 400px;
@@ -83,15 +83,21 @@ a:hover {
   width: 100%;
 }
 .container .box {
-  float: left;
+  float: right;
   background: #FAC88C;
-    color: #642112;
+ color: #642112;
   width: 400px;
   height: 150px;
-  margin: auto;
   padding: 15px;
+border: 1px #642112 solid;
 }
-#ordered {
+.container #ordered {
   background: #FAC88C;
-    color: #642112;  
+    color: #642112; 
+    float: right;
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+border: 1px #642112 solid;
+    margin-top: -340px;
 }
